@@ -2,52 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c9b014c-ea91-4699-9f09-71d9f303d402" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/65241e04-791d-4798-a68c-be4e189eda8d.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/65241e04-791d-4798-a68c-be4e189eda8d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springBoot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lovo/springBoot/StartMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lovo/springBoot/config/ObjectConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lovo/springBoot/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lovo/springBoot/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lovo/springBoot/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lovo/springBoot/entity/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lovo/springBoot/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lovo/springBoot/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/userShow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lovo/springBoot/StartMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lovo/springBoot/config/ObjectConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lovo/springBoot/config/WebConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lovo/springBoot/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lovo/springBoot/dao/IUserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lovo/springBoot/entity/UserEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lovo/springBoot/service/IUserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lovo/springBoot/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/userShow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/springBoot-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/springBoot-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +51,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\workspaceIdea\springBoot\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -186,21 +148,45 @@
       <workItem from="1577321858395" duration="751000" />
       <workItem from="1577676675974" duration="38000" />
       <workItem from="1577934088332" duration="1783000" />
-      <workItem from="1578538100606" duration="539000" />
+      <workItem from="1578538100606" duration="1588000" />
     </task>
+    <task id="LOCAL-00001" summary="idea测试">
+      <created>1578538738896</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578538738896</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="idea测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea测试" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="219" y="0" key="CommitChangelistDialog2" timestamp="1578539848246">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="219" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578539848246" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1578538459059">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578538459059" />
+    <state x="548" y="255" width="273" height="218" key="Github.ShareDialog" timestamp="1578539023267">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="548" y="255" width="273" height="218" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1578539023267" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1578538376061">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578538376061" />
+    <state x="382" y="155" key="git4idea.merge.GitPullDialog" timestamp="1578539870051">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="382" y="155" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1578539870051" />
   </component>
 </project>
