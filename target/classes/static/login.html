@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.staticfile.org/axios/0.18.0/axios.min.js"></script>
+</head>
+<body>
+<div id="userId">
+   <form>
+        用户名：<input type="text" v-model="userName"><p/>
+        密码：<input type="text" v-model="password"><p/>
+        <input type="submit" value="登陆" @click="savaUser()">
+   </form><p/>
+    <span>{{Info}}</span>
+</div>
+
+<script >
+
+    new Vue({
+        el:"#userId",
+        data:{
+            userName:"",
+            password:"",
+            Info:""
+        },
+        methods:{
+            savaUser:function(){
+
+                //组装保存的参数
+                var params = new URLSearchParams();
+                params.append("userName",this.userName);
+                params.append("password",this.password);
+                //调用AJAX保存
+                axios({
+                    method: 'post',
+                    url:'login',
+                    data:params
+                }).then(response => (this.Info=response.data))
+            .catch(function (error) { // 请求失败处理
+                    console.log(error);
+                });
+
+            }
+        }
+    });
+
+</script>
+</body>
+</html>
